@@ -14,5 +14,9 @@ rules:
   doctrine.use_flush_in_loop:
     enabled: false
 
+  # allow usage of .htaccess
+  web.apache_config:
+    enabled: false
+
 php_ini: |
   extension=redis.so
